@@ -14,7 +14,7 @@ namespace Abecado_Backend.Controllers
         [HttpGet]
         public string[] Index()
         {
-            return new string[] { "Eto", "Noviy", "Project" };
+            return new string[] { "Eto", "Noviy", "Project", "!"};
         }
     }
 }
